@@ -1,0 +1,42 @@
+.direction {
+  padding-top: 47px;
+  padding-bottom: 94px;
+
+  &__title {
+    margin-bottom: 50px;
+  }
+
+  &__titles {
+    color: $primary-background-color;
+    font-family: &main-font;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  &__label {
+    position: absolute;
+    padding: 27px;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    background-color: $label-background-color;
+  }
+
+  &__list {
+    display: flex;
+    flex-basis: calc((100%-90px) / 3);
+    margin-right: -30px;
+    margin-bottom: -30px;
+  }
+
+  &__item {
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+}
