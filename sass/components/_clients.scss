@@ -1,6 +1,10 @@
-.client-list {
-  display: flex;
-  justify-content: center;
+.client {
+  @extend %section;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
 
   &__link {
     display: flex;

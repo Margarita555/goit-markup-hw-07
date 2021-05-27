@@ -19,16 +19,14 @@
     margin-bottom: 30px;
 
     color: $primary-background-color;
-    font-family: $main-font;
+    @include fonts($main-font, 44px, 1.4, 0.06em);
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
   }
 
   &__button {
+    @extend %button;
     padding: 10px 32px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }

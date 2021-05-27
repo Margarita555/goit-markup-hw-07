@@ -8,11 +8,8 @@
 
   &__titles {
     color: $primary-background-color;
-    font-family: &main-font;
-    font-size: 14px;
-    line-height: 1.14;
+    @include fonts($main-font, 14px, 1.14, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
   }
 

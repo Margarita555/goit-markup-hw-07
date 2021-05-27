@@ -1,4 +1,5 @@
 .team {
+  @extend %section;
   background-color: $secondary-background-color;
 
   &__list {
@@ -26,22 +27,16 @@
     margin-bottom: 10px;
 
     color: var(--title-text-color);
-    font-family: var(--main-font);
+    @include fonts($main-font, 16px, 1.18, 0.03em);
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
     text-align: center;
-    letter-spacing: 0.03em;
   }
 
   &__text {
     margin-bottom: 16px;
 
-    font-family: $main-font;
-    font-size: 16px;
-    line-height: 1.18;
+    @include fonts($main-font, 16px, 1.18, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
   }
 }
 
