@@ -36,8 +36,8 @@ img {
   font-family: "Roboto", sans serif;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .container {
@@ -47,7 +47,7 @@ img {
   padding-right: 15px;
 }
 
-.team, .client {
+.portfolio, .team, .client {
   padding-top: 94px;
   padding-bottom: 94px;
 }

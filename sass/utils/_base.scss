@@ -33,7 +33,10 @@ img {
   margin-bottom: 50px;
 
   color: $title-text-color;
-  @include fonts($main-font, 36px, 1.16, 0.03em);
+  font-family: $main-font;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03;
   text-align: center;
 }
 
@@ -42,10 +45,8 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: purple;
 }
 
 .portfolio {
   @extend %section;
-  background-color: red;
 }
