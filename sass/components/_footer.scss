@@ -70,6 +70,11 @@
   border-color: rgba(255, 255, 255, 0.6);
   border-radius: 4px;
 
+  &:focus {
+    border-color: $accent-color;
+    outline-color: $accent-color;
+  }
+
   &::placeholder {
     @include fonts($main-font, 16px, 1.25, 0.03em);
     color: rgba(255, 255, 255, 0.6);
