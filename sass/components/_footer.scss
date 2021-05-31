@@ -67,17 +67,17 @@
   padding: 15px 16px;
   min-width: 358px;
   background-color: $footer-background-color;
-  border-color: rgba(255, 255, 255, 0.6);
+  border-color: $input-text-color;
   border-radius: 4px;
+  color: $input-text-color;
 
   &:focus {
-    border-color: $accent-color;
-    outline-color: $accent-color;
+    border: 1px solid #ffffff 30%;
   }
 
   &::placeholder {
     @include fonts($main-font, 16px, 1.25, 0.03em);
-    color: rgba(255, 255, 255, 0.6);
+    color: $input-text-color;
   }
 }
 
