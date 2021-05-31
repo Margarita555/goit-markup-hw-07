@@ -531,8 +531,15 @@ img {
   margin-left: 93px;
 }
 
+.footer__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .footer__mail-input {
   padding: 15px 16px;
+  margin-right: 12px;
   min-width: 358px;
   background-color: #2f303a;
   border-color: rgba(255, 255, 255, 0.6);

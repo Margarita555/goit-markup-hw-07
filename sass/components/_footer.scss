@@ -63,8 +63,13 @@
   margin-left: 93px;
 }
 
+.footer__box {
+  display: flex;
+}
+
 .footer__mail-input {
   padding: 15px 16px;
+  margin-right: 12px;
   min-width: 358px;
   background-color: $footer-background-color;
   border-color: $input-text-color;

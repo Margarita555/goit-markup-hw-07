@@ -65,8 +65,21 @@
     @include fonts($main-font, 18px, 1.56, 0.03em);
     color: $primary-background-color;
   }
+}
 
-  .portfolio-set__link:hover & {
-    transform: translate(0);
-  }
+.description::-webkit-scrollbar {
+  width: 10px;
+}
+.description::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+.description::-webkit-scrollbar-thumb {
+  background: #afb1b8;
+  border-radius: 8px;
+  border: 1px solid #e5e5e5;
+}
+
+.portfolio-set__link:hover & {
+  transform: translate(0);
 }
